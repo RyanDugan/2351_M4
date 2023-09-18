@@ -1,5 +1,5 @@
-const randomQuestion = `Here is the question right here maybe yes?`;
+const randomQuestion = `Do you have a favorite book series?`;
 console.log(randomQuestion);
 
-const name = `Ryan`;
-console.log(`Whaddup, ${name}?`);
+const name = `NVC`;
+console.log(`Hello, ${name}!`);
