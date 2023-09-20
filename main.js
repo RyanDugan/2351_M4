@@ -19,6 +19,8 @@ let y = 696.304053463;
 let a = 60703.3453367522442;
 let n = 58.5335;
 document.getElementById(`test5`).innerHTML =
+  `Each of these numbers are rounded to 0, 3, 6, and 1 decimal places.` +
+  "<br><br>" +
   r.toFixed(0) +
   "<br>" +
   y.toFixed(3) +
