@@ -30,6 +30,12 @@ document.getElementById(
   `test2.2`
 ).innerHTML = `You need to roll a 13 or higher. You rolled a ${dice} on a d20!`;
 
+//string method
+let favFood = `I can be indecisive. My favorite type of food is...Italian!`;
+let actualFavFood = favFood.replace(`Italian`, `Thai`);
+console.log(favFood, actualFavFood);
+document.getElementById(`test4`).innerHTML = actualFavFood;
+
 //number method
 let r = 12.503496;
 let y = 696.304053463;
@@ -45,9 +51,3 @@ document.getElementById(`test5`).innerHTML =
   a.toFixed(6) +
   "<br>" +
   n.toFixed(1);
-
-//string method
-let favFood = `I can be indecisive. My favorite food is Italian!`;
-let actualFavFood = favFood.replace(`Italian`, `Thai`);
-console.log(favFood, actualFavFood);
-document.getElementById(`test4`).innerHTML = actualFavFood;
