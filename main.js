@@ -4,6 +4,7 @@ console.log(randomQuestion);
 const school = `NVC`;
 console.log(`Hello, ${school}!`);
 
+//concatenated string variable
 let quanShells = 77;
 const seaShells = `seashells`;
 const seaShore = `seashore`;
@@ -12,6 +13,18 @@ const oClock = `o'clock`;
 document.getElementById(
   `test1`
 ).innerHTML = `She sells ${quanShells} ${seaShells} by the ${seaShore} at ${timeClock} ${oClock}!`;
+
+//if conditional statement
+let dice = 15;
+
+if (dice > 13) {
+  result = `Success! Luck was on your side!`;
+} else {
+  result = `Failure! Better luck next time!`;
+}
+document.getElementById(`test2`).innerHTML = result;
+
+document.getElementById(`test2.2`).innerHTML = `You rolled a ${dice} on a d20!`;
 
 //number method
 let r = 12.503496;
@@ -30,7 +43,7 @@ document.getElementById(`test5`).innerHTML =
   n.toFixed(1);
 
 //string method
-let favFood = `I can be indecisive. My favorite food (I think) is Italian!`;
+let favFood = `I can be indecisive. My favorite food is Italian!`;
 let actualFavFood = favFood.replace(`Italian`, `Thai`);
 console.log(favFood, actualFavFood);
 document.getElementById(`test4`).innerHTML = actualFavFood;
