@@ -30,6 +30,8 @@ document.getElementById(
   `test2.2`
 ).innerHTML = `You need to roll a 13 or higher. You rolled a ${dice} on a d20!`;
 
+//switch statement
+
 //string method
 let favFood = `I can be indecisive. My favorite type of food is...Italian!`;
 let actualFavFood = favFood.replace(`Italian`, `Thai`);
