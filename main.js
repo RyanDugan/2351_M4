@@ -15,16 +15,20 @@ document.getElementById(
 ).innerHTML = `She sells ${quanShells} ${seaShells} by the ${seaShore} at ${timeClock} ${oClock}!`;
 
 //if conditional statement
-let dice = 15;
+let dice = 12; //plug in the dice result from a d20 roll here!
 
-if (dice > 13) {
+if (dice >= 13) {
   result = `Success! Luck was on your side!`;
+} else if (dice >= 10) {
+  result = `Slight failure! So close!`;
 } else {
   result = `Failure! Better luck next time!`;
 }
 document.getElementById(`test2`).innerHTML = result;
 
-document.getElementById(`test2.2`).innerHTML = `You rolled a ${dice} on a d20!`;
+document.getElementById(
+  `test2.2`
+).innerHTML = `You need to roll a 13 or higher. You rolled a ${dice} on a d20!`;
 
 //number method
 let r = 12.503496;
