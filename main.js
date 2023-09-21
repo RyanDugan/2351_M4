@@ -6,11 +6,11 @@ console.log(`Hello, ${school}!`);
 
 //concatenated string variable
 let quanShells = 77;
-const seaShells = `seashells`;
-const seaShore = `seashore`;
+const seaShells = "seashells";
+const seaShore = "seashore";
 let timeClock = 6;
-const oClock = `o'clock`;
-document.getElementById(`test1`).innerHTML =
+const oClock = "o'clock";
+document.getElementById("test1").innerHTML =
   "She sells " +
   quanShells +
   " " +
