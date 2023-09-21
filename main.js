@@ -10,10 +10,27 @@ const seaShells = `seashells`;
 const seaShore = `seashore`;
 let timeClock = 6;
 const oClock = `o'clock`;
-document.getElementById(
-  `test1`
-).innerHTML = `She sells ${quanShells} ${seaShells} by the ${seaShore} at ${timeClock} ${oClock}!`;
+document.getElementById(`test1`).innerHTML =
+  `She sells` +
+  " " +
+  quanShells +
+  " " +
+  seaShells +
+  " " +
+  `by the` +
+  " " +
+  seaShore +
+  " " +
+  `at` +
+  " " +
+  timeClock +
+  " " +
+  oClock;
 
+//bonus - string interpolation is MUCH cleaner!
+document.getElementById(
+  `test1.5`
+).innerHTML = `She sells ${quanShells} ${seaShells} by the ${seaShore} at ${timeClock} ${oClock}!`;
 //if conditional statement
 let dice = 12; //plug in the dice result from a d20 roll here!
 
