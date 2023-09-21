@@ -31,7 +31,7 @@ document.getElementById(
 ).innerHTML = `You need to roll a 13 or higher. You rolled a ${dice} on a d20!`;
 
 //switch statement
-let passivePerception = `Gnar`; //write in one of the player character names to see their passive perception score!
+let passivePerception = `Rascal`; //write in one of the player character names to see their passive perception score!
 
 switch (passivePerception) {
   case `Theo`:
