@@ -31,6 +31,25 @@ document.getElementById(
 ).innerHTML = `You need to roll a 13 or higher. You rolled a ${dice} on a d20!`;
 
 //switch statement
+let passivePerception = `Gnar`; //write in one of the player character names to see their passive perception score!
+
+switch (passivePerception) {
+  case `Theo`:
+    document.getElementById(`test3`).innerHTML = 9;
+    break;
+  case `Gnar`:
+  case `Rascal`:
+    document.getElementById(`test3`).innerHTML = 13;
+    break;
+  case `Caia`:
+    document.getElementById(`test3`).innerHTML = 14;
+    break;
+  case `Otto`:
+    document.getElementById(`test3`).innerHTML = 16;
+    break;
+  case `Kiba`:
+    document.getElementById(`test3`).innerHTML = 17;
+}
 
 //string method
 let favFood = `I can be indecisive. My favorite type of food is...Italian!`;
