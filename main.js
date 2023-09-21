@@ -4,7 +4,7 @@ console.log(randomQuestion);
 const school = `NVC`;
 console.log(`Hello, ${school}!`);
 
-//concatenated string variable
+//concatenated
 let quanShells = 77;
 const seaShells = "seashells";
 const seaShore = "seashore";
