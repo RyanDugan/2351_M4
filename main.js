@@ -78,7 +78,7 @@ let y = 696.304053463;
 let a = 60703.3453367522442;
 let n = 58.5335;
 document.getElementById("test5").innerHTML =
-  "Each of these numbers are rounded and given a specific decimal place to display." +
+  "Each of these numbers are rounded and given a specific decimal place to display:" +
   "<br><br>" +
   r.toFixed(0) +
   "<br>" +
