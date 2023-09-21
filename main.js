@@ -1,4 +1,4 @@
-const randomQuestion = `Do you have a favorite book series?`;
+const randomQuestion = `What are your favorite book series?`;
 console.log(randomQuestion);
 
 const school = `NVC`;
